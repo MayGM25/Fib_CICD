@@ -1,0 +1,31 @@
+Welcome to Ubuntu 24.04.1 LTS (GNU/Linux 6.8.0-1021-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Mar  5 08:59:29 UTC 2025
+
+  System load:  0.09              Processes:             107
+  Usage of /:   29.6% of 6.71GB   Users logged in:       0
+  Memory usage: 30%               IPv4 address for enX0: 172.31.8.130
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+140 updates can be applied immediately.
+47 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Mar  5 07:04:12 2025 from 3.16.146.4
+ubuntu@ip-172-31-8-130:~$ ls
+fibonacci  index.html  index.html.1  install
+ubuntu@ip-172-31-8-130:~$ ls fibonacci
+README.md  appspec.yml  fibonacci.py
+ubuntu@ip-172-31-8-130:~$ python3 fibonacci/fibonacci.py
+First 7 Fibonacci numbers: [0, 1, 1, 2, 3, 5, 8]
